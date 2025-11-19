@@ -196,9 +196,6 @@ export default function Home() {
               }
             }}
             onAction={handleFileAction}
-            onDelete={(id) =>
-              handleFileAction("delete", files.find((f) => f.id === id)!)
-            }
           />
         </main>
       </div>
